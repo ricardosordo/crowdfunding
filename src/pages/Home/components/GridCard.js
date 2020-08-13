@@ -15,22 +15,33 @@ function GridCard() {
 
     axios.get(URL)
     .then( respuesta => setCards(respuesta.data))
-    .catch( error => console.log(error))
+    .catch( error => console.log(error));
     }
 
     useEffect( () => {
     getCampaign();
     }, [])
 
-
-    console.log(cards)
+    console.log(Object.entries(cards))
 
 
     return (
         <div className="container">
-        {/* {cards.map(card => {
-            return(<Card titulo={card.campaignTitle} />)
-        })} */}
+        {cards
+           ? Object.keys(cards).map((id) =>
+            <Card 
+            titulo={cards[id].campaignTitle}
+            ubicacion={cards[id].location}
+            categoria={cards[id].category}
+            descripcion={cards[id].brief} 
+            recaudado={cards[id].raised}
+            bakrs={cards[id].backers}
+            disponible={cards[id].daysLeft}
+            meta={cards[id].goal}
+
+            />)
+            : <h1>No ha campañas aún</h1>
+        }
         </div>
     )
 }

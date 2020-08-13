@@ -14,10 +14,10 @@ function Card(props) {
             <p>{ubicacion}</p>
             <p>{categoria}</p>
             <p>{descripcion}</p>
-            <p>{recaudado}</p>
-            <p>{bakrs}</p>
-            <p>{disponible}</p>
-            <p>{meta}</p>
+            <p>{recaudado} COP Recaudados</p>
+            <p>{bakrs} Bakrs</p>
+            <p>Termina en {disponible} días</p>
+            <p>Meta de {meta}</p>
             <button className="buttonCTA">Apoyar causa</button>
           </div>  
         </>

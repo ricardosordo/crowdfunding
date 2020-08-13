@@ -11,12 +11,10 @@ const createCampaign = async (user) => {
     }
   }
 
-const getCampaign = async (id) => {
-    try{
-        const response = await axios.get(`BASE_URL/${id}`)
-    } catch (err) {
-        throw err
-    }
+const getCampaign = () => {
+    axios.get(BASE_URL)
+    .then((res)=> (res.data))
+    .catch((error) => alert(error))
 }
 
 
