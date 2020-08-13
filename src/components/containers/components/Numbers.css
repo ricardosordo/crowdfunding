@@ -1,0 +1,22 @@
+.ContainerN {
+    width: 100%;
+    background-color:white;
+    height: 600px;
+    display: flex;
+    margin-bottom: -150px;
+    
+} 
+
+.Container.hijo {
+    display:flex;
+    flex-direction: row;
+
+}
+
+.texto { 
+    background-color:white;
+    float: left;
+    padding: 30px 70px;
+    margin-left: 150px;
+    margin-top: 200px;
+}
