@@ -3,14 +3,14 @@ import {Link, withRouter} from 'react-router-dom';
 
 
 
-function Home() {
+function Campaign() {
     return (
         <div>
             <div className="container">
-                <h2>Soy la página principal</h2>
+                <h2>Soy el creador y editor de campaña</h2>
             </div>
         </div>
     )
 }
 
-export default withRouter(Home)
+export default withRouter(Campaign)

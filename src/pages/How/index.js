@@ -3,14 +3,14 @@ import {Link, withRouter} from 'react-router-dom';
 
 
 
-function Home() {
+function How() {
     return (
         <div>
             <div className="container">
-                <h2>Soy la página principal</h2>
+                <h2>Soy el como funciona</h2>
             </div>
         </div>
     )
 }
 
-export default withRouter(Home)
+export default withRouter(How)

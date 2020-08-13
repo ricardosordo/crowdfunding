@@ -3,14 +3,14 @@ import {Link, withRouter} from 'react-router-dom';
 
 
 
-function Home() {
+function Explore() {
     return (
         <div>
             <div className="container">
-                <h2>Soy la página principal</h2>
+                <h2>Soy el Explorador de Campañas</h2>
             </div>
         </div>
     )
 }
 
-export default withRouter(Home)
+export default withRouter(Explore)
