@@ -1,35 +1,23 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import '../Home.css'
 
-function Card() {
+function Card(props) {
 
-  
-    const exampleData = {
-        titleCampaign : "Título de campaña",
-        location : "Medellin",
-        category: "Educacion en línea",
-        brief : "Este proyecto se encarga de apoyar a la juventud a través de la tecnología",
-        donations: "",
-        backers: "",
-        daysLeft: "",
-        goal: "",
-        progress: 0,
-    }
-
+  const {imagen, titulo, ubicacion, categoria, descripcion, recaudado, bakrs, disponible, meta} = props;
 
     return (
         <>
           <div className="card">
-            <img />
-            <h3>Título</h3>
-            <p>Ubicación</p>
-            <p>Categoria</p>
-            <p>Descripcion</p>
-            <p>Recaudado</p>
-            <p>Bakrs</p>
-            <p>Disponible hasta</p>
-            <p>Meta de recaudacción</p>
-            <p>Progress Bar</p>
+
+            <h3>{imagen}</h3>
+            <p>{titulo}</p>
+            <p>{ubicacion}</p>
+            <p>{categoria}</p>
+            <p>{descripcion}</p>
+            <p>{recaudado}</p>
+            <p>{bakrs}</p>
+            <p>{disponible}</p>
+            <p>{meta}</p>
             <button className="buttonCTA">Apoyar causa</button>
           </div>  
         </>

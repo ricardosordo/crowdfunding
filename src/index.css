@@ -8,9 +8,3 @@ body {
     background: rgba(220,220,220, 0.1);
     margin: 0;
 }
-
-.buttonCTA {
-    background: #FF9393 0% 0% no-repeat padding-box;
-    opacity: 1;
-    border-radius: 13px;
-}
