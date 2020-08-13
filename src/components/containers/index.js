@@ -1,16 +1,19 @@
 import React from 'react';
-import Router from 'react-router-dom'
+import { HashRouter as Router } from 'react-router-dom';
+import Routes from '../../Routes'
+//UI 
+
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Routes from '../../Routes/index';
+
 
 function index() {
     return (
-        <div>
+        <Router>
         <Header />
         <Routes />
         <Footer />
-        </div>
+        </Router>
     )
 }
 

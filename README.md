@@ -1,3 +1,9 @@
+This project colaborators:
+Mariana Aristizabal Cano & Carlos Ricardo Ortiz Sordo.
+All the copyrights are for colabs and you can't reproduce the brands or any sensible data from this project.
+
+This content is for education purposes.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
