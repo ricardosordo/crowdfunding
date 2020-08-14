@@ -12,16 +12,13 @@ import Typography from '@material-ui/core/Typography';
 // import Box from '@material-ui/core/Box';
 import '../../Home/Home.css'
 
-
-
 const useStyles = makeStyles({
   root: {
     maxWidth: 350,
     marginLeft: 50,
   },
   media: {
-    height: 200,
-    
+    height: 300,
   },
 });
 

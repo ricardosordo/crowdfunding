@@ -4,12 +4,10 @@ import '../Home.css'
 import axios from 'axios';
 
 
-
 function GridCard() {
 
     const [cards, setCards] = useState([]); 
-
-
+    
     const getCampaign = () => {
     const URL = 'https://bakr-1dff8.firebaseio.com/campaignManager.json/';
 
@@ -18,16 +16,25 @@ function GridCard() {
     .catch( error => console.log(error));
     }
 
+    const deleteCampaign = (id) => {
+        axios.delete(`https://bakr-1dff8.firebaseio.com/campaignManager/${id}.json/`)
+        .then(()=> getCampaign())
+        .catch((error) => console.log(error) )
+    }
+
+
     useEffect( () => {
     getCampaign();
     }, [])
 
 
     return (
-        <div className="container">
+        <div>
         {cards
             ? Object.keys(cards).map((id) =>
             <Card 
+            key={id}
+            id={id}
             titulo={cards[id].campaignTitle}
             ubicacion={cards[id].location}
             categoria={cards[id].category}
@@ -36,9 +43,9 @@ function GridCard() {
             bakrs={cards[id].backers}
             disponible={cards[id].daysLeft}
             meta={cards[id].goal}
-
+            deleteCampaign={deleteCampaign}
             />)
-            : <h1>No hay campañas aún</h1>
+            : <h4>No hay campañas aún</h4>
         }
         </div>
     )

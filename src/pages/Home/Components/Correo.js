@@ -16,9 +16,8 @@ export default function Correo() {
 
   return (
     <div className="correo">
-    <title>¡Mantente al tanto de nuevas campañas!</title>
+    <h3>¡Mantente al tanto de nuevas campañas!</h3>
    
-
     <form className={classes.root} noValidate autoComplete="off">
 
       <TextField id="outlined-basic" label="Escribe tu correo aquí" variant="outlined" />
