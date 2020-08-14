@@ -1,5 +1,13 @@
-.footerColor{
+footer {
+    display: grid;
+    left: 0;
+    padding-top: 2rem;
+    bottom: 0;
+    width: 100%;
+    grid-template-columns: 10% 20% auto 20% 10%;
+    grid-template-rows: 1fr auto;
+    align-items: start;
     background-color:#f3f4f3;
-    height: 100px;
-
+    color: white;
+    margin-top: 4rem;
 }

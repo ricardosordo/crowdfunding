@@ -74,9 +74,8 @@ font-weight: bold;
 }
 
 .stroke {
-
-    color: chocolate;
-    background-color: darkblue;
+    width: 40rem;
+    padding-bottom: 6rem;
 }
 
 
@@ -85,18 +84,19 @@ font-weight: bold;
     background-color: blue;
 }
 
+.paddingCards{
+    margin-bottom: 8rem;
+}
 
 
 /* numbre */
 .ContainerN {
-    width: 100%;
     background-color:#fce8e8;
-    height: 600px;
+    height: 400px;
     display: flex;
-    margin-bottom: -150px;
+    border-radius: 20px
     
 } 
-
 
 
 .texto { 

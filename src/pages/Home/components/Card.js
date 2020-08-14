@@ -7,12 +7,13 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import Paper from '@material-ui/core/Paper';
 // import PropTypes from 'prop-types';
 // import LinearProgress from '@material-ui/core/LinearProgress';
 // import Box from '@material-ui/core/Box';
 import '../../Home/Home.css'
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme)=> ({
   root: {
     maxWidth: 350,
     marginLeft: 50,
@@ -20,7 +21,11 @@ const useStyles = makeStyles({
   media: {
     height: 300,
   },
-});
+  paper:{
+    padding: theme.spacing(2),
+    margin: 'auto',
+  },
+}));
 
 export default function Card1(props) {
 
@@ -28,6 +33,7 @@ export default function Card1(props) {
   const {imagen, titulo, ubicacion, categoria, descripcion, recaudado, bakrs, disponible} = props;
 
   return (
+    <div className="paddingCards">
     <Card className={classes.root} >
       <CardActionArea>
         <CardMedia
@@ -72,6 +78,7 @@ export default function Card1(props) {
         <a href="#" class="btn btn-primary">¡Apoya este proyecto!</a>
       </CardActions>
     </Card>
+    </div>
   );
 }
 

@@ -1,13 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Container from '@material-ui/core/Grid'
 import '../../Home/Home.css'
+import Grid from '@material-ui/core/Grid';
 
 const Numbers = () => {
     return (
+        <Grid>
         <div className="ContainerN">
-            
-<div className= "Bakrennum"> Bakrs en números: </div>
-
- <div className="Container.hijo">
+            <div className= "Bakrennum"> Bakrs en números: </div>
+            <div className="Container.hijo">
 
 
             <div className="texto">
@@ -24,11 +25,10 @@ const Numbers = () => {
             <div className="texto">
                 <h2> 4000 </h2>
                 <p> Bakrs</p>
-
+                    </div>
             </div>
-            </div>
-
         </div>
+       </Grid>
     )
 }
 

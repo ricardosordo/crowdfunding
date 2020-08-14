@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Card from './Card'
-import Grid from '@material-ui/core/Grid'
+import Card from './Card';
+import Grid from '@material-ui/core/Grid';
 import '../Home.css'
 import axios from 'axios';
 
