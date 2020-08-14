@@ -5,11 +5,7 @@ import {Link, withRouter} from 'react-router-dom';
 
 function Detail() {
     return (
-        <div>
-            <div className="container">
-                <h2>Soy el detalle de cada campaña</h2>
-            </div>
-        </div>
+        <detail/>
     )
 }
 

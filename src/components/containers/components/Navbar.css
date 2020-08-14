@@ -1,3 +1,26 @@
 .navbarColor{
-    background-color: aqua;
+    background-color: #FF9393;
+    overflow: hidden;
+    height: 109px;
+}
+
+.navbarColor li {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    margin-left: 50px;
+    margin-top: 15px;
+    font-family: 'Poppins'; font-weight: bold;
+    color: white;
+    
+}
+
+
+.searchbar {
+    height: 52px;
+    padding: 14px 16px;
+    margin-left: 1000px;
+    margin-top:15px;
+    color: white;
+    
 }

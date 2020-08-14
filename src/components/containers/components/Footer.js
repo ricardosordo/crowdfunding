@@ -4,7 +4,7 @@ import './Footer.css'
 function Footer() {
     return (
         <div className="footerColor">
-            <h2>Hola soy el footer</h2>
+          <img src="https://svgur.com/i/NhN.svg" className="Logo" alt="Logo"></img>
         </div>
     )
 }

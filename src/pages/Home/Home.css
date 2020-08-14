@@ -1,19 +1,152 @@
-.card {
-    height: 36em;
-    display:-webkit-box;
-    display:-ms-flexbox;
+
+/* Landing */
+
+.landing{
+    width: 100%;
+    background-color:white;
+    height: 700px;
+    display: flex;
+}
+
+.title {
+background-color:white;
+height: 300px;
+width: 600px;
+margin-left: 550px;
+margin-top: 60px;
+font-family: 'Poppins'; font-weight: normal;
+font-size: 24px;
+
+}
+
+.title.l{
+    font-size: 60px;
+    font-weight:bolder;
+}
+
+.title.parrafo {
+    font-size: 5spx;
+    font-weight: normal;
+}
+
+.button {
+    margin-left: 160px;
+    background-color: #FFD782; /* Green */
+    border: none;
+    color: #6B60AF;
+    padding: 12px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 14px;
+    font-family: 'Poppins'; font-weight: normal;
+  }
+
+  .Explora {
+      margin-left: 0px;
+margin-top:150px;
+font-size: 28px;
+
+  }
+
+
+  /*categories */
+  
+.Category.bar {
+    background-color: teal;
+    overflow: hidden;
+}
+
+.Categories a{
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    
+}
+
+.stroke {
+
+    color: chocolate;
+    background-color: darkblue;
+}
+
+
+
+
+.correo{
+    height: 400px;
+    background-color: blue;
+}
+
+
+
+
+/* numbre */
+.ContainerN {
+    width: 100%;
+    background-color:#fce8e8;
+    height: 600px;
+    display: flex;
+    margin-bottom: -150px;
+    
+} 
+
+.Container.hijo {
     display:flex;
-    -webkit-box-orient:vertical;
-    -webkit-box-direction:normal;
-    -ms-flex-direction:column;
-    flex-direction:column;
-    position:relative;
-    -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-    -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-    transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-    border-radius:16px;
-    overflow:hidden;
-    -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
-    box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
-    width:14em;
+    flex-direction: row;
+
+}
+
+.texto { 
+    background-color:#fce8e8;
+    
+    float: left;
+    padding: 30px 70px;
+    margin-left: 150px;
+    margin-top: 200px;
+}
+
+
+/* Card */
+
+.card-container {
+    background-color: rgb(230, 220, 240);
+    color: white;
+    width: 488px;
+    height: 742px;
+    border-radius: 40px;
+    margin: 2rem;
+    padding: 1rem;
+    border: gray, 1px;
+    margin-top: 30px;
+}
+
+.picture {
+   
+    color: white;
+    width: 488px;
+    height: 324px;
+    margin: 2rem;
+    padding: 1rem;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+.hijo {
+    padding: 14px 16px;
+    text-align: center;  
+}
+
+.contenedor {
+    width: 400px ;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.chijo {
+    font-size: 16px;
+    background-color: white;
+    padding: 14px 16px;
 }
