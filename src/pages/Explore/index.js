@@ -9,12 +9,9 @@ import Correo from '../Home/components/Correo';
 function Explore() {
     return (
         <>
-        <div>
-            <h2>Encuentra y apoya la causa que más te mueva</h2>
-        </div>
+        <br/>
         <Category />
         <GridCard />
-        <Correo />
         </>
     )
 }

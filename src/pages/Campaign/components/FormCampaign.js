@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import TextField from '@material-ui/core/TextField';
+import '../Campaign.css';
 
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    '& > *': {
-      margin: theme.spacing(1),
-      width: '25ch',
+    '& .MuiTextField-root': {
+      margin: theme.spacing(2),
+      width: 360,
     },
   },
 }));
@@ -53,10 +54,11 @@ export default function FormCampaign(props) {
 
   return (
 
-<div>
+
+<div className="inputFields">
     <form className={classes.root} noValidate autoComplete="off">
         <div className="input">
-    <TextField type="text"  id="outlined-basic" label="Nombre de la campaña" variant="outlined" width="100%" onChange={handlerTitle} />
+    <TextField type="text"  id="outlined-basic" label="Nombre de la campaña" variant="outlined" size="Normal" onChange={handlerTitle} />
     </div>
     <div className="input">
       <TextField type="text" id="outlined-basic" label="Ubicación de la campaña" variant="outlined" onChange={handlerUbicacion}/>
@@ -82,7 +84,7 @@ export default function FormCampaign(props) {
       {/* <button type="button" className="button">Cancelar</button>
       <button type="button" className="button">Borrar</button> */}
       <Link to="/">
-      <button href="" type="button" className="button" onClick={() => createCampaign(titulo, ubicacion, categoria, descripcion, recaudado, bakrs, disponible)} >Guardar</button>
+      <button type="button" className="button" onClick={() => createCampaign(titulo, ubicacion, categoria, descripcion, recaudado, bakrs, disponible)} >Guardar</button>
       </Link>
     </form>
     </div>

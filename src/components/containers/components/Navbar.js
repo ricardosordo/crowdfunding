@@ -20,11 +20,11 @@ function Navbar() {
                     Explorar
                 </NavLink>
                 </li>
-                <li>
+                {/* <li>
                 <NavLink to="/comofunciona" activeClassName="active">
                     ¿Cómo funciona?
                 </NavLink>
-                </li>
+                </li> */}
                 <li>
                 <NavLink to="/campaña" activeClassName=" active">
                     ¡Crear una campaña!

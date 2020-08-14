@@ -8,7 +8,23 @@
 }
 
 .input {
-   width: 400px;
    text-align: center;
-   margin-left: 600px;
+}
+
+.TitleCampaignCreate{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.TitleCampaignCreate--text{
+    margin-top: 60px;
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: center;
+    text-align: center;
+}
+
+.experiment{
+    text-align: center;
 }

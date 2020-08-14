@@ -1,8 +1,8 @@
 import React from 'react';
 import {Link, withRouter} from 'react-router-dom';
-import Form from './components/FormCampaign'
-import CampaignManager from './components/CampaignManager'
+import Form from './components/FormCampaign';
 import axios from 'axios';
+import './Campaign.css';
 
 
 
@@ -19,14 +19,15 @@ function Campaign() {
     }
 
     return (
-        <div>
-            <div className="container">
-            <h2>Crea una campaña</h2>
-            <Form createCampaign={ createCampaign } />
-            <h2>Edita la campaña que requieras</h2>
-            <CampaignManager />
+        <>
+            <div className="TitleCampaignCreate" >
+                <div className="TitleCampaignCreate--text">
+                    <h2>Crea una campaña</h2>
+                    <p>Ingresa los datos que a continuación se te solicitan</p>
+                </div>
             </div>
-        </div>
+            <Form createCampaign={ createCampaign } />
+        </>
     )
 }
 
