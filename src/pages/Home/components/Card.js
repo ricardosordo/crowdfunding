@@ -25,8 +25,10 @@ const useStyles = makeStyles({
   },
 });
 
-export default function Card1() {
+export default function Card1(props) {
+
   const classes = useStyles();
+  const {imagen, titulo, ubicacion, categoria, descripcion, recaudado, bakrs, disponible} = props;
 
   return (
     <Card className={classes.root} >
@@ -38,30 +40,28 @@ export default function Card1() {
         />
         <CardContent>
           <Typography gutterbottom="true" variant="h5" component="h2">
-            ¡Apoya a los caficultures colombianos en el aréa del quindio!
+            {titulo}
           </Typography>
           <div className="Padre">
           <div className="hijo" gutterbottom="true" variant="h5" component="h2">
-            Ubicacion    |      Categoría 
+            {ubicacion}   |   {categoria}
           </div>
-          
           </div>
           <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
+            {descripcion}
           </Typography>
           <div className="contenedor">
           <div className="chijo">
-                <Typography><b>$478.000 COP</b></Typography >
+                <Typography><b>${recaudado} COP</b></Typography >
                 <Typography > recaudaciones </Typography >
               </div>
               <div className="chijo">
-                <Typography ><b>26</b></Typography >
+                <Typography ><b>{bakrs}</b></Typography >
                 <Typography > Bakrs </Typography >
               </div>
 
               <div  className="chijo">
-                <Typography ><b>26 días</b></Typography >
+                <Typography ><b>{disponible} días</b></Typography >
                 <Typography > termina</Typography >
               </div>
           </div>

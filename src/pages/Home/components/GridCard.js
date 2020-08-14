@@ -38,7 +38,7 @@ function GridCard() {
             meta={cards[id].goal}
 
             />)
-            : <h1>No ha campañas aún</h1>
+            : <h1>No hay campañas aún</h1>
         }
         </div>
     )
