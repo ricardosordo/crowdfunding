@@ -1,12 +1,11 @@
 import React from 'react';
 import {Link, withRouter} from 'react-router-dom';
-import Landing from './Components/Landing';
-import Card from './Components/Card';
-import Category from './Components/Category';
-import Numbers from './Components/Numbers';
-import Correo from './Components/Correo';
-import Card from './components/Card'
-import GridCard from './components/GridCard';
+import Landing from '../Home/components/Landing';
+import Card from '../Home/components/Card';
+import Category from '../Home/components/Category';
+import Numbers from '../Home/components/Numbers';
+import Correo from '../Home/components/Correo';
+import GridCard from '../Home/components/GridCard';
 
 
 
@@ -15,10 +14,10 @@ function Home() {
         <>
         <Landing/>
         <Card />
-        <GridCar />
-        <Category/>
-        <Numbers/>
-        <Correo/> 
+        <GridCard />
+        <Category />
+        <Numbers />
+        <Correo />
         </>
     )
 }

@@ -22,13 +22,11 @@ function GridCard() {
     getCampaign();
     }, [])
 
-    console.log(Object.entries(cards))
-
 
     return (
         <div className="container">
         {cards
-           ? Object.keys(cards).map((id) =>
+            ? Object.keys(cards).map((id) =>
             <Card 
             titulo={cards[id].campaignTitle}
             ubicacion={cards[id].location}

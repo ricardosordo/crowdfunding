@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, NavLink, withRouter } from 'react-router-dom';
+import { NavLink, withRouter } from 'react-router-dom';
 import './Navbar.css'
 
 import TextField from '@material-ui/core/TextField';
@@ -25,18 +25,16 @@ function Navbar() {
                     ¿Cómo funciona?
                 </NavLink>
                 </li>
-
                 <li>
                 <NavLink to="/campaña" activeClassName=" active">
                     ¡Crear una campaña!
                 </NavLink>
                 </li>
-                
-                <form className= "searchbar" noValidate autoComplete="off">
-      
-      <TextField id="outlined-basic" label="Search..." variant="outlined" />
-    </form>
-               
+
+                {/* <form className= "searchbar" noValidate autoComplete="off">
+                    <TextField id="outlined-basic" label="Search..." variant="outlined" />
+                </form> */}
+
             </ul>
         </div>
     )
