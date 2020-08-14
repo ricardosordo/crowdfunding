@@ -20,16 +20,12 @@ function Campaign() {
 
     return (
         <div>
-<<<<<<< HEAD
-        
-=======
             <div className="container">
             <h2>Crea una campaña</h2>
             <Form createCampaign={ createCampaign } />
             <h2>Edita la campaña que requieras</h2>
             <CampaignManager />
             </div>
->>>>>>> f897782bb7ac467a3e0c84843281982551f3e69b
         </div>
     )
 }

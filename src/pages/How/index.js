@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link, withRouter} from 'react-router-dom';
 
-import Pasos from '../How/Components/Pasos'
+// import Pasos from '../How/Components/Pasos'
 
 
 
@@ -10,7 +10,7 @@ function How() {
         <div>
             <div className="container">
             
-                <Pasos/>
+                {/* <Pasos/> */}
                
             </div>
         </div>
