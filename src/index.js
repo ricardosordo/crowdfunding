@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Index from './components/containers/index'
+import './index.css'
 
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css" // Import bootstrap
 

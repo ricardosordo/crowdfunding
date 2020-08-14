@@ -1,8 +1,8 @@
 import React from 'react';
 import { HashRouter as Router } from 'react-router-dom';
 import Routes from '../../Routes'
-//UI 
 
+//UI Components
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
