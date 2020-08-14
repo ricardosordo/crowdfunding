@@ -1,13 +1,17 @@
 import React from 'react';
 import {Link, withRouter} from 'react-router-dom';
 
+import Pasos from '../How/Components/Pasos'
+
 
 
 function How() {
     return (
         <div>
             <div className="container">
-                <h2>Soy el como funciona</h2>
+            
+                <Pasos/>
+               
             </div>
         </div>
     )

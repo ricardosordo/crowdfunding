@@ -12,8 +12,9 @@ function index() {
         <Router>
         <Navbar />
         <Routes />
-        <Footer />
+        <Footer /> 
         </Router>
+       
     )
 }
 

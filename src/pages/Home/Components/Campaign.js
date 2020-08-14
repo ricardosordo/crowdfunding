@@ -18,8 +18,12 @@ export default function BasicTextFields() {
 
   return (
     
-   
+   <div className="formatob">
+<title> ¡Crea tú propia campaña!</title>
 <div Classname="formato">
+    <div className="Creacampaign">
+
+</div>
     <form className={classes.root} noValidate autoComplete="off">
         <div className="input">
     <TextField  id="outlined-basic" label="Nombre de la campaña" variant="outlined" width="100%" />
@@ -50,6 +54,7 @@ export default function BasicTextFields() {
       <button type="button" class="button">Aceptar</button>
       
     </form>
+    </div>
     </div>
     
     
