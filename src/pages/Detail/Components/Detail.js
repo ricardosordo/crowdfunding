@@ -1,4 +1,4 @@
-import React from 'react'
+import React from './node_modules/react'
 import Detail from 'C:/Users/Mariana Aristizabal/Desktop/crowdfunding/src/pages/Explore';
 
 const Detail = () => {

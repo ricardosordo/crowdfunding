@@ -12,15 +12,17 @@
     margin-top: 15px;
     font-family: 'Poppins'; font-weight: bold;
     color: white;
-    
+}
+
+.navbarColor ul {
+    list-style-type: none;
 }
 
 
 .searchbar {
-    height: 52px;
+    height: 20px;
     padding: 14px 16px;
     margin-left: 1000px;
     margin-top:15px;
     color: white;
-    
 }

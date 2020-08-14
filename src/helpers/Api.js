@@ -11,11 +11,13 @@ const createCampaign = async (user) => {
     }
   }
 
-const getCampaign = () => {
-    axios.get(BASE_URL)
-    .then((res)=> (res.data))
-    .catch((error) => alert(error))
-}
+  const getCampaign = () => {
+    const URL = 'https://bakr-1dff8.firebaseio.com/campaignManager.json/';
+
+    axios.get(URL)
+    .then( respuesta => setCards(respuesta.data))
+    .catch( error => console.log(error));
+    }
 
 
 const updateCampaign = async () => {
