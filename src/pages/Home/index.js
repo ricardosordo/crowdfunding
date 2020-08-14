@@ -17,6 +17,7 @@ function Home() {
         <GridCard />
         <Numbers />
         <Campaign/>
+        
         </div>
     )
 }
