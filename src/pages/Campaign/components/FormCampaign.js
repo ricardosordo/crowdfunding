@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Container from '@material-ui/core/Container'
+import { Link } from 'react-router-dom'
 import TextField from '@material-ui/core/TextField';
 
 
@@ -81,11 +81,10 @@ export default function FormCampaign(props) {
       </div>
       {/* <button type="button" className="button">Cancelar</button>
       <button type="button" className="button">Borrar</button> */}
-      <button type="button" className="button" onClick={() => createCampaign(titulo, ubicacion, categoria, descripcion, recaudado, bakrs, disponible)} >Guardar</button>
+      <Link to="/">
+      <button href="" type="button" className="button" onClick={() => createCampaign(titulo, ubicacion, categoria, descripcion, recaudado, bakrs, disponible)} >Guardar</button>
+      </Link>
     </form>
     </div>
-    
-    
-    
   );
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom';
+import Container from '@material-ui/core/Container';
 
 //general routes
 import Home from "../pages/Home";
@@ -11,8 +12,7 @@ import How from '../pages/How';
 
 function Routes() {
     return (
-        <>
-        <main className="container">
+        <Container fixed>
         <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/explorar" exact component={Explore} />
@@ -20,8 +20,7 @@ function Routes() {
             <Route path="/detalle" exact component={Detail} />
             <Route path="/comofunciona" exact component={How} />
         </Switch>
-        </main>
-        </>
+        </Container>
     )
 }
 

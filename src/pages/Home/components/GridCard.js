@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Card from './Card'
+import Grid from '@material-ui/core/Grid'
 import '../Home.css'
 import axios from 'axios';
 
@@ -30,6 +31,12 @@ function GridCard() {
 
     return (
         <div>
+        <Grid
+        container
+        direction="row"
+        justify="space-around"
+        alignItems="center"
+        >
         {cards
             ? Object.keys(cards).map((id) =>
             <Card 
@@ -47,6 +54,8 @@ function GridCard() {
             />)
             : <h4>No hay campañas aún</h4>
         }
+
+        </Grid>
         </div>
     )
 }

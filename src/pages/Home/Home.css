@@ -97,9 +97,7 @@ font-weight: bold;
     
 } 
 
-.Container.hijo {
-    
-}
+
 
 .texto { 
     background-color:#fce8e8;
@@ -189,10 +187,3 @@ float: left;
 .outlined-basic {}
 
 
-/* Caja landing */
-
-.Cajalanding {
-    margin-left: 125px;
-    width: 1200px;
-   padding-bottom: 40px;
-}
