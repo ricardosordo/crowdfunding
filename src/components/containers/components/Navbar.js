@@ -27,7 +27,7 @@ function Navbar() {
                 </li>
 
                 <li>
-                <NavLink to="/campaña" activeClassName=" btn btn-primary">
+                <NavLink to="/campaña" activeClassName=" active">
                     ¡Crear una campaña!
                 </NavLink>
                 </li>

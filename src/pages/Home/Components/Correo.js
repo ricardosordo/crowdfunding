@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
-
+import '../../Home/Home.css'
 const useStyles = makeStyles((theme) => ({
   root: {
     '& > *': {
@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function BasicTextFields() {
+export default function Correo() {
   const classes = useStyles();
 
   return (
@@ -27,3 +27,5 @@ export default function BasicTextFields() {
     
   );
 }
+
+

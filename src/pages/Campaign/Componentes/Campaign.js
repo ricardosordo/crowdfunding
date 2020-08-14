@@ -1,6 +1,8 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
+import './components'
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -32,10 +34,10 @@ export default function BasicTextFields() {
       <TextField id="outlined-basic" label="Descripción" variant="outlined" />
       </div>
       <div className="input">
-      <TextField id="outlined-basic" label="Recaudo" variant="outlined" />
+      <TextField id="outlined-basic" label="Recaudo total" variant="outlined" />
        </div>
        <div className="input">
-      <TextField id="outlined-basic" label="Número de donantes (Bakrs)" variant="outlined" />
+      <TextField id="outlined-basic" label="Backers" variant="outlined" />
       </div>
       <div className="input">
       <TextField id="outlined-basic" label="Fecha de finalización de la campaña" variant="outlined" />
@@ -43,6 +45,10 @@ export default function BasicTextFields() {
       <div className="input">
       <TextField id="outlined-basic" label="Meta de recaudación" variant="outlined" />
       </div>
+      <button type="button" class="button">cancelar</button>
+      <button type="button" class="button">Borrar</button>
+      <button type="button" class="button">Aceptar</button>
+      
     </form>
     </div>
     

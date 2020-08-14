@@ -1,15 +1,21 @@
 import React from 'react';
 import {Link, withRouter} from 'react-router-dom';
-
+import Landing from './Components/Landing';
+import Card from './Components/Card';
+import Category from './Components/Category';
+import Numbers from './Components/Numbers';
+import Correo from './Components/Correo';
 
 
 function Home() {
     return (
-        <div>
-            <div className="container">
-                <h2>Soy la página principal</h2>
-            </div>
-        </div>
+        <>
+        <Landing/>
+        <Card />
+        <Category/>
+        <Numbers/>
+        <Correo/> 
+        </>
     )
 }
 

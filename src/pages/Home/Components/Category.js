@@ -1,6 +1,7 @@
 import React from 'react';
 //import { Link, NavLink, withRouter } from 'react-router-dom';
-import './Category.css'
+import '../../Home/Home.css'
+
 
 
 function Category () {
@@ -19,6 +20,14 @@ function Category () {
                 <a href="#">Alimentación</a>
               
                 <a href="#">Animales</a>
+
+                <a href="#">Sostenibilidad</a>
+
+                <a href="#">Emergencias</a>
+
+                <a href="#">Arte</a>
+
+                <a href="#">Emprendimiento</a>
                
                 <hr className="stroke"></hr>
             </ul>

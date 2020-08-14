@@ -1,0 +1,14 @@
+/*formulario */
+
+.outlined-basic {
+    background-color:green;
+    outline-color:purple;
+    float: left;
+    text-align: center;
+}
+
+.input {
+   width: 400px;
+   text-align: center;
+   margin-left: 600px;
+}

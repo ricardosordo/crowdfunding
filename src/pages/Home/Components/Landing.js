@@ -1,7 +1,6 @@
 import React from 'react'
-import './Landing.css'
 import Button from '@material-ui/core/Button';
-
+import '../../Home/Home.css'
 
 const Landing = () => {
     return (
@@ -19,4 +18,6 @@ const Landing = () => {
     )
 }
 
-export default Landing
+
+export default (Landing) 
+

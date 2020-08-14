@@ -1,5 +1,5 @@
 import React from 'react'
-import './Numbers.css'
+import '../../Home/Home.css'
 
 const Numbers = () => {
     return (
@@ -8,13 +8,14 @@ const Numbers = () => {
 
 
  <div className="Container.hijo">
- <title> En números</title>
+
             <div className="texto">
                 <h2> $350.000 Cop </h2>
                 <p> Recaudados </p>
 
             </div>
             <div className="texto">
+            <title> Bakr en números</title>
                 <h2> 6000</h2>
                 <p>Causas apoyadas </p>
 
@@ -30,4 +31,5 @@ const Numbers = () => {
     )
 }
 
-export default Numbers
+
+export default (Numbers) 

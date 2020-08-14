@@ -1,5 +1,4 @@
 import React from 'react';
-import './Card.css'
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
@@ -11,6 +10,7 @@ import Typography from '@material-ui/core/Typography';
 import PropTypes from 'prop-types';
 import LinearProgress from '@material-ui/core/LinearProgress';
 import Box from '@material-ui/core/Box';
+import '../../Home/Home.css'
 
 
 
@@ -25,7 +25,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function MediaCard() {
+export default function Card1() {
   const classes = useStyles();
 
   return (
@@ -79,4 +79,5 @@ export default function MediaCard() {
     </Card>
   );
 }
+
 
