@@ -6,19 +6,19 @@ import Category from '../Home/components/Category';
 import Numbers from '../Home/components/Numbers';
 import Correo from '../Home/components/Correo';
 import GridCard from '../Home/components/GridCard';
-
+import Campaign from '../Home/components/Campaign';
 
 
 function Home() {
     return (
-        <>
+        <div className="Cajalanding">
         <Landing/>
-        <Card />
-        <GridCard />
         <Category />
+        <GridCard />
         <Numbers />
-        <Correo />
-        </>
+        <Campaign/>
+        
+        </div>
     )
 }
 

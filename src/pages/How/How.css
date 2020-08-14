@@ -1,0 +1,38 @@
+
+.Pasos{
+
+    width: 100%;
+    margin-top: 300px;
+    background-color:black;
+    height: 750px;
+    margin-left: 300px;
+    display: flex;
+}
+
+
+.imglandingp {
+    margin-top: 800px;
+    margin-left: 0px;
+    background-color:black;
+}
+
+.titlep {
+    background-color:black;
+height: 300px;
+width: 600px;
+margin-left: 100px;
+margin-top: 200px;
+font-family: 'Poppins'; font-weight: bolder;
+font-size: 24px;
+
+}
+
+.title.lp{
+    font-size: 60px;
+    font-weight:bolder;
+}
+
+.title.parrafop {
+    font-size: 5spx;
+    font-weight: normal;
+}

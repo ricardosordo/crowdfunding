@@ -4,17 +4,22 @@
 .landing{
     width: 100%;
     background-color:white;
-    height: 700px;
+    height: 750px;
     display: flex;
+}
+
+.imglanding {
+    margin-top: 150px;
+    margin-left: -130px;
 }
 
 .title {
 background-color:white;
 height: 300px;
 width: 600px;
-margin-left: 550px;
-margin-top: 60px;
-font-family: 'Poppins'; font-weight: normal;
+margin-left: 100px;
+margin-top: 200px;
+font-family: 'Poppins'; font-weight: bolder;
 font-size: 24px;
 
 }
@@ -44,9 +49,12 @@ font-size: 24px;
   }
 
   .Explora {
-      margin-left: 0px;
-margin-top:150px;
+      margin-left: -250px;
+margin-top:200px;
 font-size: 28px;
+font-family: 'Poppins'; font-weight: normal;
+font-weight: bold;
+  
 
   }
 
@@ -93,18 +101,25 @@ font-size: 28px;
 } 
 
 .Container.hijo {
-    display:flex;
-    flex-direction: row;
-
+    
 }
 
 .texto { 
     background-color:#fce8e8;
     
     float: left;
-    padding: 30px 70px;
-    margin-left: 150px;
+    padding: 50px ;
+    margin-left: -30px;
     margin-top: 200px;
+    
+}
+
+.Bakrennum {
+    font-size: 24px;
+    margin-top: 30px;
+    border-radius: 24px;
+    font-family: 'Poppins'; font-weight: normal;
+    margin-left: 300px;
 }
 
 
@@ -149,4 +164,38 @@ font-size: 28px;
     font-size: 16px;
     background-color: white;
     padding: 14px 16px;
+}
+
+
+.container {
+float: left;
+}
+
+
+/* Nueva campaña*/
+
+.formato {
+    margin-left: 200px;
+    background-color: black;
+}
+
+.formatob { 
+    background-color:beige;
+}
+
+.Creacampaign {
+    background-color: brown;
+}
+
+.Imputbox {background-color: chartreuse;}
+
+.outlined-basic {}
+
+
+/* Caja landing */
+
+.Cajalanding {
+    margin-left: 125px;
+    width: 1200px;
+   padding-bottom: 40px;
 }

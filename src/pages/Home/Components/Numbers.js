@@ -5,9 +5,10 @@ const Numbers = () => {
     return (
         <div className="ContainerN">
             
-
+<div className= "Bakrennum"> Bakrs en números: </div>
 
  <div className="Container.hijo">
+
 
             <div className="texto">
                 <h2> $350.000 Cop </h2>
